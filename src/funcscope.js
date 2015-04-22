@@ -1,10 +1,9 @@
 /* jshint funcscope: false */
 function test() {
-	var x;
-
 	if (true) {
-		x = 0;
+		var x = 0;
 	}
 
-	x += 1;
+	x += 1; // Default: 'x' used out of scope.
+	// No warning when funcscope:true
 }

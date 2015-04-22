@@ -1,11 +1,11 @@
 /* jshint futurehostile: false */
 
-var MyJSON = {};
-var MyMap = {};
-var MyPromise = {};
-var MyProxy = {};
-var MyReflect = {};
-var MySet = {};
-var MySymbol = {};
-var MyWeakMap = {};
-var MyWeakSet = {};
+var JSON = {};
+var Map = {};
+var Promise = {};
+var Proxy = {};
+var Reflect = {};
+var Set = {};
+var Symbol = {};
+var WeakMap = {};
+var WeakSet = {};
