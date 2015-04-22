@@ -1,0 +1,18 @@
+//forin
+var arr = [],
+    i;
+
+for (i in arr) {
+    doSomething(arr[i]);
+}
+
+//freeze
+function freeze(){
+
+    'use strict';
+    var value = 11;
+
+    if (value > 0){
+       Array.prototype.count = function (value) { return 1; };
+       }
+    }
