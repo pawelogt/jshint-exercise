@@ -3,8 +3,15 @@
  */
 var int1 = 1;
 var int2 = 0;
-function Errors() {
-    if (int1 & int2)
-    int1 = int1 + 5;
+
+/* exported errors */
+function errors() {
+    'use strict';
+
+    /* jshint bitwise: false */
+    if (int1 & int2) {
+        int1 = int1 + 5;
+    }
+
     int2 = int1 + int2;
 }
